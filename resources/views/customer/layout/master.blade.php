@@ -23,7 +23,7 @@
           <div class="header-shipping">
             <div class="header-shipping-wrapper d-flex">
               <div class="header-shipping-text text-white">
-                Welcome to Furin online Store
+                Welcome to Furin Online Store
               </div>
               <div class="header-shipping-text text-white border-left">
                 <img class="header-shipping-text-icon" src="/customer/assets/img/bus.png" alt="bus-icon" />Track Your Order
@@ -365,7 +365,8 @@
       </div>
       <div class="footer-bottom d-flex justify-content-between align-items-center">
         <p class="copyright-content text-ofwhite m-0">
-          Copyright © 2024 <a href="/">Furin</a> . All Rights Reserved.Design By Furin
+          Copyright © {{ now()->year }}
+          <a href="/">Furin</a>, All Rights Reserved.
         </p>
         <div class="footer-payment text-right">
           <img class="" src="/customer/assets/img/payment-visa-card.png" alt="visa-card">
